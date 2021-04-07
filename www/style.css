@@ -17,7 +17,12 @@ h1{
 	font size:50px;
 	padding: 10px;
 	margin: 0;
+
 	
+}
+h1 span{padding: 4px;
+	border:4px dashed #20bcd5 ;
+	display: inline;
 }
 /*img{
 	height: 1280px;
@@ -41,5 +46,57 @@ h2{
 	font size:50px;
 }
 table {
+	width: 100%;
+	font-size: 11pt;
+}
+table,th,td{
+	border: 2px solid #cecece;
+	border-collapse: collapse;
 	text-align: center;
+	table-layout: fixed;
+}
+.selected{
+	background-color: #f36F48;
+	color: white;
+	font-weight: bold;
+}
+.selected1{background-color: #F6CCDA;
+color: olive;
+font-weight: bold;
+
+}
+.selected2{background-color: #FFE3E5;
+
+font-weight: bold;
+
+}
+form {
+	text-align: center;
+
+}
+.submit{
+	background-color:#3fb6b2;
+	color:#ffffff; 
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	padding: 12px 45px;
+	border-radius: 5px;
+}
+.submit:hover{
+	background-color: red;
+}
+textarea{
+	height:100px;
+}
+input,textarea{
+	width: 15%;
+	background-color: #efefef;
+	border-radius: 5px;
+	outline: none;
+	color:#FF6600 ;
+	margin-bottom: 10px;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
 }
