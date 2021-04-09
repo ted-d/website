@@ -44,6 +44,7 @@ h2{
 	text-align: center;
 	color: #FF6600;
 	font size:50px;
+	margin-top: 10px;
 }
 table {
 	width: 100%;
@@ -99,4 +100,31 @@ input,textarea{
 	margin-bottom: 10px;
 	padding: 15px 10px 10px;
 	border: 1px solid #cecece;
+}
+.section{
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+progress{
+	width:70%;
+	height: 20px;
+	color: #3fb6b2;
+	background-color: #efefef;
+}
+progress::-webkit-progress-bar{
+	background:#efefef;
+}
+progress::-webkit-progress-value{
+	background:#3fb6b2;
+}
+progress::-moz-progress-value{
+	background:#3fb6b2;
+}
+iframe{
+	display: block;
+	margin:0 auto;
+	border:3px solid #3fb6b2;
+	
 }
