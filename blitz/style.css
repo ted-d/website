@@ -1,0 +1,20 @@
+.page-header{
+	border:5px solid red;
+}
+
+.page-header>div{
+	border:5px solid yellow;
+}
+.fixed-width{
+	width: 940px;
+	margin: 0 auto;
+}
+.logo{
+	font-family: 'Economica', sans-serif;
+	font-size: 28px;
+}
+ul{
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	font-weight: bolder;
+}
