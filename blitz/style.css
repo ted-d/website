@@ -1,20 +1,57 @@
-.page-header{
-	border:5px solid red;
+body, *, *:before, *:after{
+	box-sizing: border-box;
+	
 }
-
-.page-header>div{
-	border:5px solid yellow;
+html, body{
+	font-family: "Helvetica Neue","Helvetica",sans-serif;
+	font-size: 16px;
+	color: #474747;
+}
+a{
+	text-decoration: none;
+	color:inherit;
 }
 .fixed-width{
-	width: 940px;
-	margin: 0 auto;
+	
+	width:940px;
+	margin:0 auto;
 }
-.logo{
-	font-family: 'Economica', sans-serif;
-	font-size: 28px;
+.clearfix:before, .clearfix:after{
+	content: " ";
+	display: table;
 }
-ul{
-	font-family: 'Playfair Display', serif;
-	font-size: 18px;
-	font-weight: bolder;
+.clearfix:after{
+	clear:both;
+}
+.page-header{border-top: 5px solid #ebebeb;
+
+}
+.page-header .logo{
+	font-size: 3.5em;
+	font-family: "Pacifico", cursive;
+position: absolute;
+bottom:0;
+
+}
+.page-header>div{
+	position: relative;
+}
+.page-header nav{
+	float: right;
+	font-family: "Economica";
+	text-transform: uppercase;
+
+}
+.page-header li em{
+	color: #474747;
+	font-size: 1.6em;
+	display: block;
+	font-weight: bold;
+}
+.page-header nav li{
+	color: #bfbfbf;
+	float:left;
+
+	margin-right: 3rem;
+	padding-top:3rem;
 }
